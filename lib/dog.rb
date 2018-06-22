@@ -1,6 +1,6 @@
 # dog.rb
 class Dog
-  def name(name)
+  def name=(name)
     @name = name
   end
   
@@ -8,16 +8,19 @@ class Dog
     @name
   end
   
-  def breed(breed)
-    @breed = breed
+  def breed=(breed)
+    @breed
   end
   
   def breed
     @breed 
   end
+  
 end
   
-fido = Dog.new
-cocker_spaniel = Dog.new
+# fido = Dog.new("Fido")
+# fido.name
+# spaniel = Dog.new("Cocker Spaniel")
+# spaniel.name
 
 
