@@ -18,9 +18,8 @@ class Dog
   
 end
   
-# fido = Dog.new("Fido")
-# fido.name
-# spaniel = Dog.new("Cocker Spaniel")
-# spaniel.name
+fido = Dog.new
+fido.name("Fido")
+
 
 
